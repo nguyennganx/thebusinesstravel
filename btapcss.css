@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	padding: 0 20px;
+	height:91px;
+}
+.header img{
+	width:15%;
+	float:left;
+} 
+.header ul{
+	list-style-type: none;
+	padding: 35px;
+	padding-left: 23%;
+}
+.header ul li{
+	display: inline;
+	padding: 0px 20px;
+}
+.header .fa-search {
+	color:orange;
+}
+.banner{
+	background-image: url("pexels-luis-del-río-15286.jpg");
+	height:100vh;
+	text-align: center;
+	background-size: cover
+}
+.banner .welcome{
+	padding:20% 10%;
+	color:white;
+}
+.banner .welcome h1{
+	font-size: 50px;
+}
+.banner .welcome h3{
+	font-size:25px;
+	padding:5px 0px;
+}
+.banner .welcome .getstarted{
+	border:none;
+	padding:10px 10px;
+	margin-top: 5px;
+	background-color:orange;
+	color: black;
+}
+.banner .welcome .getstarted:hover{
+	background-color:black;
+	color:white;
+}
+
+.manage {
+	padding: 50px 100px;
+} 
+.personal {
+	width: 30%
+}
+.personal img {
+	width:90%;
+	margin-bottom: 10px;
+} 
+.manage {
+	display: flex;
+	justify-content: space-around;
+}
+.sale{
+	height:100px;
+	background-color: orange
+}
+.sale h4{
+	float:left;
+	font-size:30px;
+	padding:30px;
+	
+}
+.sale input{
+	float:right;
+	margin: 30px 40px;
+	padding:10px 10px;
+	border:none;
+}
+.sale input:hover{
+	background-color:black;
+	color:white;
+}
+.title {
+    text-align: center;
+	padding:20px;
+}
+.Left {
+    width: 38%;
+    float: left;
+    margin: 20px 2% 20px 10%;
+    
+}
+.Right {
+    width: 38%;
+    float: left;
+    margin: 20px 10% 20px 2%;
+  
+}
+.aboutus{
+	background-color:aliceblue
+}
+.aboutus .noidung{
+	display:inline;
+	
+}
+.footer {
+    padding: 50px 5%; 
+}
+.footer .logo{
+	text-align: center;
+}
+.footer h2{
+	text-align: center;
+}
+.copyright {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
